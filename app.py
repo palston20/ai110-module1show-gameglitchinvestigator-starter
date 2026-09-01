@@ -43,8 +43,8 @@ def check_guess(guess, secret):
         if g == secret:
             return "Win", "🎉 Correct!"
         if g > secret:
-            return "Too High", "📈 Go HIGHER!"
-        return "Too Low", "📉 Go LOWER!"
+            return "Too High", "📈 Go HIGHER!" #Should be switched to go lower
+        return "Too Low", "📉 Go LOWER!"        #should be switched to go higher 
 
 
 def update_score(current_score: int, outcome: str, attempt_number: int):
@@ -142,7 +142,7 @@ if st.session_state.status != "playing":
         st.success("You already won. Start a new game to play again.")
     else:
         st.error("Game over. Start a new game to try again.")
-    st.stop()
+    st.stop() #shouldnt this be st.rerun as well 
 
 if submit:
     st.session_state.attempts += 1

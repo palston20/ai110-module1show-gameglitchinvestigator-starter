@@ -5,18 +5,21 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+  - The game is a number guesser where you have to guess the number the computer is thinking. The game provides hints where it will let you know if the number you guessed is higher or lower than the secret number, and there are different difficulties you can play. Easy mode has a smaller range of 1-20 with 6 guesses, normal has 1-100 range with 8 guesses, and hard has 1-50 range with 4 guesses. 
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
+  - Bugs I noticed while playing the game were that the new game button doesn't 
+    work, the secret number does not change based on the difficulty (so the number would be out of the expected range), and the higher/lower or the hint function is off. The new game button does not fully restart the game every single time, you would typically have to refresh the page. If you guessed a number, the program would tell you to go higher when the secret number is actually lower and vice versa. 
 
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
-|-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+|    Input      |  Expected Behavior |   Actual Behavior |  Console Output / Error |
+|---------------|------------------- |-----------------  |------------------------|
+|guess is 60    |"Go lower!"         | "Go higher!"      | None
+|game is over   |restart game    |page is stuck on previousgame |   None           |
+| game is on easy|  secret is 1-20   | secret is 1-100   | None |
 
 ---
 
