@@ -69,13 +69,13 @@ Yes, Claude pointed out that update_score and get_range_for_difficulty were stil
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 
-
+I would definitely reuse using AI to give more edge cases  to be implemented during testing because it was helpful to have a "second pair of eyes" to look over what has been done and what can be added to improve what is already there. 
 
 - What is one thing you would do differently next time you work with AI on a coding task?
 
-
+One thing I will do differently is work on prompting the AI tool a lot more specifically. I often had to go back and forth with th tool to get exactly the result what I wanted. 
 
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
 
-
+AI has definitely become a lot more capable and reliable when it comes to generating code compared to previous years. However, this project showed me that I still need to test and understand AI-generated code myself instead of assuming it will always be correct. 
 
